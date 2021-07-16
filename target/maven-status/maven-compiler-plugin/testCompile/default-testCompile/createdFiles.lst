@@ -1,0 +1,4 @@
+base\MyTestRunner.class
+stepDefinitions\ConfigReader.class
+stepDefinitions\ApplicationHooks.class
+stepDefinitions\LoginstepDefs.class
