@@ -16,6 +16,7 @@ public class LoginPage {
 	}
 	
 	public String gettheTitle() {
+		//summa
 		return driver.getTitle();
 	}
 }
