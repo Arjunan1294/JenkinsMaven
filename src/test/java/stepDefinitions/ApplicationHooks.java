@@ -3,6 +3,7 @@ package stepDefinitions;
 import java.util.Properties;
 
 import org.junit.Assume;
+import org.junit.runners.Parameterized.Parameters;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -32,6 +33,8 @@ public class ApplicationHooks {
 	public void getProperty() {
 		congigReader = new ConfigReader();
 		prop = congigReader.init_prop();
+		String browser = System.getProperty("Browser");
+		System.out.println("The browser value is"+browser);
 	}
 	
 	@Before(order=2)
